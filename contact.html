@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<TITLE>ВН ДИЗАЙН - ОФОРМЛЕНИЕ ИНТЕРЬЕРОВ</TITLE>
-<META  name="keywords" content="дизайн квартир, общественных помещений, оформлений интерьеров">
-<META name="description" content="интерьеры, дизайн, мебель, текстиль">
-<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<TITLE>Р’Рќ Р”РР—РђР™Рќ - РћР¤РћР РњР›Р•РќРР• РРќРўР•Р Р¬Р•Р РћР’</TITLE>
+<META  name="keywords" content="РґРёР·Р°Р№РЅ РєРІР°СЂС‚РёСЂ, РѕР±С‰РµСЃС‚РІРµРЅРЅС‹С… РїРѕРјРµС‰РµРЅРёР№, РѕС„РѕСЂРјР»РµРЅРёР№ РёРЅС‚РµСЂСЊРµСЂРѕРІ">
+<META name="description" content="РёРЅС‚РµСЂСЊРµСЂС‹, РґРёР·Р°Р№РЅ, РјРµР±РµР»СЊ, С‚РµРєСЃС‚РёР»СЊ">
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
 <META name="robots" content="index,follow">
 <META name="revisit" content="3 days">
 <META name="revisit-after" content="3">
@@ -27,21 +27,21 @@ p=new Array(family.length);
 </HEAD>
 <BODY topmargin=0 background="img/bg.jpg" height=1305 onload="set()">
 <SCRIPT language="JavaScript">
-str=(namer)?"УВАЖАЕМЫЙ(АЯ) "+namer.replace(/\+/g,' ').toUpperCase()+
-"!<BR>Ваше сообщение получено.<BR>Мы обязательно Вам ответим.":"Хотите связаться с нами?"
+str=(namer)?"РЈР’РђР–РђР•РњР«Р™(РђРЇ) "+namer.replace(/\+/g,' ').toUpperCase()+
+"!<BR>Р’Р°С€Рµ СЃРѕРѕР±С‰РµРЅРёРµ РїРѕР»СѓС‡РµРЅРѕ.<BR>РњС‹ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ Р’Р°Рј РѕС‚РІРµС‚РёРј.":"РҐРѕС‚РёС‚Рµ СЃРІСЏР·Р°С‚СЊСЃСЏ СЃ РЅР°РјРё?"
 heads=[str];
 hlefts=[180];
 htops=[0];
 wrimg();wrvis();wrfam('c0',b[0],b[1])
-heads=['Санкт-Петербург, ул.Студенческая 10,<BR>ТК "Ланской", модуль А-3, 1 этаж.',
-'тел.: 8 (812) 448-84-02','vndesign@list.ru','www.vnproject.ru'];
+heads=['РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, СѓР».РЎС‚СѓРґРµРЅС‡РµСЃРєР°СЏ 10,<BR>РўРљ "Р›Р°РЅСЃРєРѕР№", РјРѕРґСѓР»СЊ Рђ-3, 1 СЌС‚Р°Р¶.',
+'С‚РµР».: 8 (812) 448-84-02','vndesign@list.ru','www.vnproject.ru'];
 htops=[20,255,280,280];
 hlefts=[0,100,0,270];
 wrfam('c1',b[1],b[2]);
 if(!namer)w('<IMG id="but" src="img/but.gif">');
 var inputs=["name","mail","phone","tema","send","reset"];
-var label=["Имя","E-mail","Телефон","Тема","",""];
-heads=["Заполните анкету и отправьте сообщение."];
+var label=["РРјСЏ","E-mail","РўРµР»РµС„РѕРЅ","РўРµРјР°","",""];
+heads=["Р—Р°РїРѕР»РЅРёС‚Рµ Р°РЅРєРµС‚Сѓ Рё РѕС‚РїСЂР°РІСЊС‚Рµ СЃРѕРѕР±С‰РµРЅРёРµ."];
 hlefts=[32];
 htops=[0];
 w("<DIV id=forfrm><DIV id=forh>");wrh();
@@ -50,14 +50,14 @@ w(" onsubmit='return formtest()' onreset='return formcleen()'>");
 for(var i in inputs)
    {
 var str=(i<inputs.length-2)?' onfocus="fy(this)">':
-(i<inputs.length-1)?' type=submit value=Послать>':' type=reset>';
+(i<inputs.length-1)?' type=submit value=РџРѕСЃР»Р°С‚СЊ>':' type=reset>';
 w("<INPUT name="+inputs[i]+" id="+inputs[i]+str);
 str="l"+i;
 w("<DIV id='"+str+"' class='l'>"+label[i]+"</DIV>");
    }
 w("<TEXTAREA name='message' id='message'></TEXTAREA>");
-w("<DIV id='l6' class='l'>Сообщение</DIV></FORM>");
-w("<DIV id='l' class='l'>Х</DIV></DIV>");ref();   
+w("<DIV id='l6' class='l'>РЎРѕРѕР±С‰РµРЅРёРµ</DIV></FORM>");
+w("<DIV id='l' class='l'>РҐ</DIV></DIV>");ref();   
 function formtest()
 {
 for(var i=0;i<inputs.length-2;i++)
@@ -68,7 +68,7 @@ if((!o.length)||
    ((i==2)&&((!/^[\d\)\(\x20+-]/.test(o))||(/[^0-9\)\(\x20+-]/.test(o)))))
        {
        $(inputs[i]).style.backgroundColor='#FF8080';
-       alert('анкета заполнена неправильно!');
+       alert('Р°РЅРєРµС‚Р° Р·Р°РїРѕР»РЅРµРЅР° РЅРµРїСЂР°РІРёР»СЊРЅРѕ!');
        return false;
        }
      }

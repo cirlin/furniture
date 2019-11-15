@@ -206,9 +206,9 @@ w('</TBODY></TABLE>');
 function wrvis()
 {
 w('<img id="filtr" src="img/filtr.png">');
-w('<img id="light" onclick="krash()" title="Чтобы вернутся на страницу кликни!">');
-w('<img id="left" title="Предыдущая фотография">');
-w('<img id="right" title="Следующая фотография">')
+w('<img id="light" onclick="krash()" title="Р§С‚РѕР±С‹ РІРµСЂРЅСѓС‚СЃСЏ РЅР° СЃС‚СЂР°РЅРёС†Сѓ РєР»РёРєРЅРё!">');
+w('<img id="left" title="РџСЂРµРґС‹РґСѓС‰Р°СЏ С„РѕС‚РѕРіСЂР°С„РёСЏ">');
+w('<img id="right" title="РЎР»РµРґСѓСЋС‰Р°СЏ С„РѕС‚РѕРіСЂР°С„РёСЏ">')
 }
 function wrh()
 {
@@ -246,6 +246,6 @@ ag[i].src='img/a'+family[i]+'.jpg';
 }
 function ref()
 {
-w('<div id="ref">сайт создан <a href="http://www.citronmp.ru/">');
-w('ООО&quot;МП&quot;Цитрон&quot;</a></div>')
+w('<div id="ref">СЃР°Р№С‚ СЃРѕР·РґР°РЅ <a href="http://www.citronmp.ru/">');
+w('РћРћРћ&quot;РњРџ&quot;Р¦РёС‚СЂРѕРЅ&quot;</a></div>')
 }
